@@ -13,14 +13,3 @@
  *= require_tree .
  *= require_self
  */
- 
-@import "bootstrap-sprockets";
-@import "bootstrap";
-@import "font-awesome-sprockets";
-@import "font-awesome";
-
-.logo {
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 1.5em;
-}
