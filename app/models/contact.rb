@@ -1,6 +1,6 @@
 class Contact < ActiveRecord::Base
-	validates :name, presence: true, length: { maximum: 30 }
-  validates :email, presence: true, length: { maximum: 20 }
-  validates :comments, presence: true, length: { maximum: 500 }
+	validates :name, presence: true
+  validates :email, presence: true
+  validates :comments, presence: true
   
 end
