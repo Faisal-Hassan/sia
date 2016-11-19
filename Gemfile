@@ -8,6 +8,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
+gem 'devise', '~> 4.2'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
