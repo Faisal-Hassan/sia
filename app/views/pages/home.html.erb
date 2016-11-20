@@ -4,7 +4,31 @@
 			connecting startup entrepreneurs with potential investors
 		</h3>
 		<br />
-		<div class="form-group">
-			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+</div>
+
+<div class="row">
+	<div class="col-md-6 text-center">
+		<div class="well">
+			<h2>Basic Membership</h2>
+			<h4>Free</h4>
+			<h4>Get basic community access</h4>
+			<br />
+			<div class="form-group">
+				<%= link_to "Sign Up with Basic", new_user_registration_path, class: "btn btn-success btn-lg btn-block" %>
+			</div>
 		</div>
+	</div>
+	
+	<div class="col-md-6 text-center">
+		<div class="well">
+			<h2>Pro Membership</h2>
+			<h4>$10/month</h4>
+			<h4>Get complete community access</h4>
+			<br />
+			<div class="form-group">
+				<%= link_to "Sign Up with Pro", new_user_registration_path, class: "btn btn-primary btn-lg btn-block" %>
+			</div>
+		</div>
+	</div>
+	
 </div>
