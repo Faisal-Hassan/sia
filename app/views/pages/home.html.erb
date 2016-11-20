@@ -14,7 +14,8 @@
 			<h4>Get basic community access</h4>
 			<br />
 			<div class="form-group">
-				<%= link_to "Sign Up with Basic", new_user_registration_path, class: "btn btn-success btn-lg btn-block" %>
+				<%= link_to "Sign Up with Basic", new_user_registration_path(plan: @basic_plan.id),
+						class: "btn btn-success btn-lg btn-block" %>
 			</div>
 		</div>
 	</div>
@@ -26,7 +27,8 @@
 			<h4>Get complete community access</h4>
 			<br />
 			<div class="form-group">
-				<%= link_to "Sign Up with Pro", new_user_registration_path, class: "btn btn-primary btn-lg btn-block" %>
+				<%= link_to "Sign Up with Pro", new_user_registration_path(plan: @pro_plan.id),
+						class: "btn btn-primary btn-lg btn-block" %>
 			</div>
 		</div>
 	</div>
