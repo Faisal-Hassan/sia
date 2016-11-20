@@ -9,10 +9,12 @@ gem 'font-awesome-sass', '~> 4.7.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'devise', '~> 4.2'
+gem 'stripe', '~> 1.56', '>= 1.56.2'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 # gem 'therubyracer', platforms: :ruby
 
 gem 'jquery-rails'
-gem 'turbolinks', '~> 5'
+# gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # gem 'bcrypt', '~> 3.1.7'
